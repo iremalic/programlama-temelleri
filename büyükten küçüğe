@@ -1,0 +1,25 @@
+#listeyi büyükten küçüğe sıralayın 
+sayilar=["35","26","81","64"]
+(sayilar.sort(reverse=True))
+print(sayilar)
+
+#listeyi tersten yazdırınız
+sayilar.reverse()
+print(sayilar)
+
+#listede kaç tane "26" elemanı var
+kactane=sayilar.count("26")
+print(kactane)
+
+#listedeki "81" elemanı siliniz
+sayilar.pop(3)
+print(sayilar)
+
+#"64" elemanının indexini bulunuz
+sayilar=['35','26','81','64']
+print(sayilar.index("64"))
+
+#listeyi ondalıklı_sayilar isimli,elemanları 1.4, 6.8 olan liste ile birleştiriniz
+ondalikli_sayilar=["1.4","6.8"]
+sayilar.extend(ondalikli_sayilar)
+print(sayilar)
