@@ -1,0 +1,26 @@
+yas=int(input("yaşınızı girin:"))
+evinizvarmi=input("eviniz var mı?(e/h)"):
+arabavarmi=input("arabanız var mı?(e/h):"
+arabamarkasi=""
+if arabavarni=="evet":
+    arabamarkasi=input("arabanın markası(togg, tofaş, diğer):")
+
+puan=0 
+if yas<20
+    puan+=100
+elif yas<4]:
+     puan+=50
+else:
+     puan+=30
+if evinizvarmi=="evet":
+     puan+=30
+if arabavarmi=="evet":
+    if arabamarkasi=="togg":
+        puan+=100
+     elif arabamarkasi=="tofaş":
+           puan+=30
+      elif arabamarkasi=="diğer":
+           puan+=50
+else:
+          puan+=0
+print(f"toplam puanınız: (puan)")
