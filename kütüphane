@@ -1,0 +1,8 @@
+kitap_isimleri=["atomik alışkanlıklar","gece yarısı kütüphanesi","momo","suç ve ceza")
+sayfa_sayilari["320,352,310,430"]
+aranacak_kitap=input("hangi kitabı arıyorsun")
+if aranacak_kitap in kitap_isimleri:
+    sirano=kitao_isimleri.index(aramacak_kitap
+print(aranacak_kitap,"kütüphanede var", sayfa_sayilari [siranı],"sayfadir")
+else:
+print(aranacak_kitap,"kitabı bizde yoktur.")
