@@ -1,2 +1,0 @@
-# programlama-temelleri
-python

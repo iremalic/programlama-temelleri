@@ -1,0 +1,8 @@
+# programlama-temelleri
+python
+adet=int(input("kaç sayı gireceksiniz"))
+toplam=0
+for i in range (adet):
+    sayi=int(input(f"(i+1). sayıyı giriniz:"))
+    toplam+=sayi
+print(toplam)
