@@ -1,0 +1,31 @@
+#listeyi alfabetik sıralama
+ders=["b","i","l","i","ş","i","m"]
+ders.sort()
+print(ders)
+
+#listeyi tersten yazma 
+ders.reverse()
+print(ders)
+
+#listede kaç tane "i"elemanı var
+kactane=dern.count+("i")
+print(kactane)
+'''
+#listeyi ["b","i","l","i","m"] haline getir
+ders=["b","i","l","i","ş","i","m"]
+ders.pop(4)
+ders.pop(3)
+print(ders)'''
+'''
+#ders listesini alan listesine kopyalayarak alan listesini yazdırınız
+ders=["b","i","l","i","ş","i","m"]
+alan=ders.copy()'''
+'''
+#listenin tüm elemanlarını siliniz
+ders=["b","i","l","i","ş","i","m"]
+ders.clear()
+print(ders)'''
+
+#belirtilen eleman indeksini bulunuz
+ders=["b","i","l","i","ş","i","m"]
+print(ders.index("l"))
