@@ -1,0 +1,11 @@
+soru1=input("tiyatro mu sinema mı?")
+soru2=input("öprenci misin?")
+if soru1=="tiyatro" and soru2=="evet":
+        ucret=5
+elif soru1=="tiyatro" and soru2=="hayır":
+         ucret=10
+elif soru1=="sinema" and soru2=="evet":
+           ucret=7.5
+elif soru1=="sinema" and soru2=="hayır":
+            ucret=15
+print(ucret)
