@@ -1,0 +1,10 @@
+kullanici_adi=input("kullanıcı adı: ")
+sifre=input("şifre: ")
+if(kullanici_adi!="irem"):
+    print("isim yanlış")
+if(sifre!="chia"):
+    print("şifre yanlış")
+if(kullanici_adi == "irem"):
+    print("isim doğru")
+if(sifre == "chia"):
+    print("şifre doğru")
