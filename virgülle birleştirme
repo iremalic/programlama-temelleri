@@ -1,0 +1,5 @@
+kisisel_bilgileri = ["irem","alıç","14"]
+egitim_bilgileri = ["B.A.K"]
+adres_bilgileri = ["istanbul/avcılar"]
+
+print(kisisel_bilgileri,egitim_bilgileri,adres_bilgileri)
